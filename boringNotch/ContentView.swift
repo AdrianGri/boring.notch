@@ -303,7 +303,6 @@ struct ContentView: View {
                             )
                             .frame(width: 16, height: 12)
                         }
-                        .matchedGeometryEffect(id: "spectrum", in: albumArtNamespace)
                 } else {
                     LottieAnimationView()
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
